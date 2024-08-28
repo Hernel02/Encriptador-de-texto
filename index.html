@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es-col">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encriptador de texto</title>
+        <link rel="stylesheet" href="styles.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="Logo.png" alt="logo alura">
+        </header>
+        <main>
+            <section class="seccion1">
+                <textarea class="ingrese_texto"
+                    placeholder="Ingrese el texto aqui"></textarea>
+                <div class="botones">
+                    <h1>Usar solo minúsculas sin acentos</h1>
+                    <button class="encriptar">Encriptar</button>
+                    <button class="desencriptar">Desencriptar</button>
+                </div>
+            </section>
+
+            <section class="seccion2">
+                
+                <div class="imagen">
+                    <img class="imagen_carga" src="/toys.png"
+                        alt="Imagen de aviso">
+                </div>
+                <div class="desen-texto">
+                    <h2>Ningún mensaje fue encontrado</h2>
+                    <p>Ingrese el texto que desees desencriptar o encriptar</p>
+                </div>
+                <div class="copiar">
+                    <button class="boton-copiar">
+                        <p>Copiar</p>
+                    </button>
+                </div>
+                <div class="respuesta">
+                    <p class="texto-resp"></p>
+                </div>
+               
+            </section>
+        </main>
+        <script src="Script.js"></script>
+        <footer class="firma">
+            <p class="firma_dev">Desarrollado por Hector Oyola</p>
+        </footer>
+    </body>
+</html>
